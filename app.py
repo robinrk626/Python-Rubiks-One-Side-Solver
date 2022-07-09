@@ -29,7 +29,7 @@ def calc(arr,res,nMove):
 cube=['G','G','B','G','B','B','R','R','R']
 calc(cube,[],0)
 i=0
-for _ in ans:
+for _ in ans: 
     print('After ',i,' move:  ')
     print(_[0],'  ',_[1],'  ',_[2])
     print(_[3],'  ',_[4],'  ',_[5])
